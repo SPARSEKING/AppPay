@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AppPay</title>
+    <script src="server.js" async></script>
+</head>
+ <body>
+     <h3>Welcome to Payment Gateway</h3>
+     <form action="payment" method="POST">
+         <script
+            src="//checkout.stripe.com/v3/checkout.js"
+            class="stripe-button"
+            data-key="pk_test_51Ilw44KVq2PAdzWwHyimx7LJ7F2EPzBDNpPBMiazcw4DeJ8GUkIuVj37x8kJzCm23cf4IUvNMwAF8Vu9dvovzCbG00RqXTZryA"
+            data-amount="7000"
+            data-currency="usd"
+            data-name="Kirill Gavrilchik"
+            data-description="Buy new car"
+            data-locale="auto"
+         >
+         </script>
+     </form>
+ </body>   
+</html>
